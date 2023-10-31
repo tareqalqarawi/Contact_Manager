@@ -20,6 +20,8 @@ public class ContactFormatter extends DisplayFormatter {
 			separatorNeeded = true;
 		}
 		return sb.toString();
+		System.out.print("HELLO");
+		
 	}
 
 	protected String formatContact(Contact ctc) {
